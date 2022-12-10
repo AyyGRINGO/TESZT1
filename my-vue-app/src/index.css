@@ -40,7 +40,7 @@ h1 {
 button {
   border-radius: 8px;
   border: 1px solid transparent;
-  padding: 0.6em 1.2em;
+  padding: 0.2em 0.4em;
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
@@ -68,3 +68,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+#root{
+  width: 100%;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motherShip{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 1 1 100px;
+  width: 90%;
+}
+
+.imageContainer{
+  width: 100px;
+  padding: 10px 5px 5px;
+  margin: 10px 10px 10px;
+  border: 1px rgba(39, 12, 44, 0.87) solid;
+  border-radius: 5px;
+  display:flex;
+  flex-direction: column;
+  
+
+}
+
+.loadingScreen{
+  font-size: 30px;
+}
+
